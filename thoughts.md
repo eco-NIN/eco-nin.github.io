@@ -13,6 +13,7 @@ permalink: /thoughts/
   {% for reflection in reflections %}
   <article class="thought-entry">
     <time datetime="{{ reflection.date | date_to_xmlschema }}">{{ reflection.date | date: "%B %-d, %Y" }}</time>
+    <h3>{{ reflection.title }}</h3>
     <div class="thought-entry-content">{{ reflection.content }}</div>
   </article>
   {% else %}
