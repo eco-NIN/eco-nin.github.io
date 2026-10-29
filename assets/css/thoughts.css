@@ -1,0 +1,75 @@
+.thoughts-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  margin-top: 12px;
+  padding: 6px 10px;
+  border: 1px solid #d8d8d8;
+  border-radius: 4px;
+  color: #555;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.thoughts-link:hover,
+.thoughts-link:focus-visible {
+  border-color: #1772d0;
+  color: #1772d0;
+  text-decoration: none;
+}
+
+.thoughts-timeline {
+  margin-top: 1.5rem;
+  border-left: 2px solid #d8d8d8;
+}
+
+.thought-entry {
+  position: relative;
+  margin: 0 0 2rem 1.25rem;
+}
+
+.thought-entry::before {
+  position: absolute;
+  top: 0.35rem;
+  left: -1.68rem;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #1772d0;
+  content: "";
+}
+
+.thought-entry time {
+  color: #777;
+  font-size: 0.9rem;
+}
+
+.thought-entry-content p {
+  margin: 0.5rem 0 0;
+}
+
+.thoughts-empty {
+  color: #777;
+}
+
+@media (prefers-color-scheme: dark) {
+  .thoughts-link {
+    border-color: #555;
+    color: #ddd;
+  }
+
+  .thoughts-link:hover,
+  .thoughts-link:focus-visible {
+    border-color: #67a9ed;
+    color: #67a9ed;
+  }
+
+  .thoughts-timeline {
+    border-color: #555;
+  }
+
+  .thought-entry time,
+  .thoughts-empty {
+    color: #aaa;
+  }
+}
