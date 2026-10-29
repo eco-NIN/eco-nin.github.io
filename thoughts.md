@@ -4,6 +4,8 @@ title: Thoughts
 permalink: /thoughts/
 ---
 
+<p><a href="{{ '/' | relative_url }}">&larr; Home</a></p>
+
 ## Thoughts
 
 <div class="thoughts-timeline">
