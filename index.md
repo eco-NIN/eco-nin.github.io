@@ -4,12 +4,13 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student at ...
+I am a Master's student in Software Engineering at Nankai University. I received my bachelor's degree in Computer Science and Technology from East China University of Science and Technology. My work focuses on building intelligent systems that integrate large language models, AI agents, multimodal perception, and computer vision, with applications in education and software engineering.
 
 ## Research Interests
 
-- **Computer Vision:** image recognition, image generation, video captioning
-- **Machine Learning:** meta-learning, incremental learning, transfer learning
+- **Large Language Models and AI Agents:** multi-agent collaboration, intelligent education, content generation
+- **Computer Vision and Multimodal Learning:** object detection, image understanding, multimodal content generation
+- **Intelligent Software Engineering:** automated software development, code generation, task orchestration
 
 ## News
 
@@ -21,15 +22,6 @@ I am a Ph.D. student at ...
 {% include_relative _includes/publications.md %}
 
 {% include_relative _includes/services.md %}
-
-<hr>
-
-<h2 id="yuzhe-guo-profile">Yuzhe Guo · Academic & Professional Profile</h2>
-
-**Master's Student in Software Engineering, Nankai University**<br>
-[Email](mailto:2120260814@mail.nankai.edu.cn) · [GitHub](https://github.com/eco-NIN) · [中文资料]({{ '/zh/' | relative_url }})
-
-My experience spans multi-agent systems for educational content generation, large language model (LLM)-assisted software engineering, and computer vision for robotic perception.
 
 {% include_relative _includes/education.md %}
 
